@@ -23,10 +23,10 @@ header .container{
 }
 
 header .logo {
-    margin-left: 5px;
+    margin-left: 15px;
     color: var(--vermelho);
     font-family:'Arial Black', Times;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 
@@ -46,10 +46,9 @@ header nav a{
 /*Filme Principal*/
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("img/starwars.jpg");
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('img/starwars.jpg');
     
-    
-    height: 400px;;
+    height: 300px;
     background-size: cover; /*tamanho da img*/
 
     display: flex;
